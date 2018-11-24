@@ -37,7 +37,7 @@ F 3 "" H 6400 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:Resonator-device Y1
+L Device:Resonator Y1
 U 1 1 5BC5C351
 P 4500 3900
 F 0 "Y1" V 4454 4011 50  0000 L CNN
@@ -123,7 +123,7 @@ F 3 "" H 2700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:R_Small-device R5
+L Device:R_Small R5
 U 1 1 5BC5CD62
 P 3150 4100
 F 0 "R5" V 2954 4100 50  0000 C CNN
@@ -162,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4150 5000 4300
 $Comp
-L FT232H-rescue:R_Small-device R2
+L Device:R_Small R2
 U 1 1 5BC5D91B
 P 4850 3250
 F 0 "R2" V 4750 3250 50  0000 C CNN
@@ -275,7 +275,7 @@ $EndComp
 Wire Wire Line
 	5850 4700 5950 4700
 $Comp
-L FT232H-rescue:C_Small-device C5
+L Device:C_Small C5
 U 1 1 5BC68289
 P 3150 5200
 F 0 "C5" H 3242 5246 50  0000 L CNN
@@ -286,7 +286,7 @@ F 3 "~" H 3150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:C_Small-device C6
+L Device:C_Small C6
 U 1 1 5BC682CC
 P 3450 5200
 F 0 "C6" H 3542 5246 50  0000 L CNN
@@ -297,7 +297,7 @@ F 3 "~" H 3450 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:C_Small-device C7
+L Device:C_Small C7
 U 1 1 5BC682F2
 P 3700 5200
 F 0 "C7" H 3792 5246 50  0000 L CNN
@@ -362,7 +362,7 @@ Connection ~ 6100 1900
 Wire Wire Line
 	6100 1900 6200 1900
 $Comp
-L FT232H-rescue:C_Small-device C3
+L Device:C_Small C3
 U 1 1 5BC7272A
 P 5500 1650
 F 0 "C3" H 5592 1696 50  0000 L CNN
@@ -373,7 +373,7 @@ F 3 "~" H 5500 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:C_Small-device C4
+L Device:C_Small C4
 U 1 1 5BC7276E
 P 6400 1650
 F 0 "C4" H 6492 1696 50  0000 L CNN
@@ -406,7 +406,7 @@ F 3 "" H 5500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:Ferrite_Bead_Small-device L2
+L Device:Ferrite_Bead_Small L2
 U 1 1 5BC7D1F2
 P 6750 1500
 F 0 "L2" V 6513 1500 50  0000 C CNN
@@ -417,7 +417,7 @@ F 3 "~" H 6750 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FT232H-rescue:Ferrite_Bead_Small-device L1
+L Device:Ferrite_Bead_Small L1
 U 1 1 5BC7D249
 P 5250 1500
 F 0 "L1" V 5013 1500 50  0000 C CNN
@@ -496,7 +496,7 @@ F 3 "" H 2500 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:C_Small-device C1
+L Device:C_Small C1
 U 1 1 5BC8A11B
 P 2800 2050
 F 0 "C1" H 2892 2096 50  0000 L CNN
@@ -553,7 +553,7 @@ F 3 "" H 4700 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:LED_Small-device D1
+L Device:LED_Small D1
 U 1 1 5BC9383F
 P 7200 4450
 F 0 "D1" V 7154 4548 50  0000 L CNN
@@ -564,7 +564,7 @@ F 3 "~" V 7200 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FT232H-rescue:LED_Small-device D2
+L Device:LED_Small D2
 U 1 1 5BC938CC
 P 7600 4450
 F 0 "D2" V 7554 4548 50  0000 L CNN
@@ -575,7 +575,7 @@ F 3 "~" V 7600 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FT232H-rescue:R_Small-device R3
+L Device:R_Small R3
 U 1 1 5BC93906
 P 7200 4750
 F 0 "R3" H 7141 4704 50  0000 R CNN
@@ -586,7 +586,7 @@ F 3 "~" H 7200 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L FT232H-rescue:R_Small-device R4
+L Device:R_Small R4
 U 1 1 5BC9397F
 P 7600 4750
 F 0 "R4" H 7541 4704 50  0000 R CNN
@@ -631,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 4850 7600 4950
 $Comp
-L FT232H-rescue:R_Small-device R6
+L Device:R_Small R6
 U 1 1 5BCA3B6A
 P 8250 4600
 F 0 "R6" H 8191 4554 50  0000 R CNN
@@ -642,7 +642,7 @@ F 3 "~" H 8250 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L FT232H-rescue:R_Small-device R7
+L Device:R_Small R7
 U 1 1 5BCA3BC0
 P 8250 4900
 F 0 "R7" H 8191 4854 50  0000 R CNN
@@ -690,7 +690,7 @@ F 3 "" H 4100 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT232H-rescue:C_Small-device C8
+L Device:C_Small C8
 U 1 1 5BCB2F58
 P 4100 2350
 F 0 "C8" H 4192 2396 50  0000 L CNN
@@ -723,7 +723,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 2550 4950 2550
 $Comp
-L FT232H-rescue:C_Small-device C2
+L Device:C_Small C2
 U 1 1 5BCC0981
 P 4850 2550
 F 0 "C2" V 4900 2450 50  0000 C CNN
@@ -745,11 +745,11 @@ F 3 "" H 4650 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FT232H-rescue:R_Small-device R1
+L Device:R_Small R1
 U 1 1 5BCC25BD
 P 4250 3050
 F 0 "R1" V 4150 3050 50  0000 C CNN
-F 1 "17K" V 4350 3050 50  0000 C CNN
+F 1 "12K" V 4350 3050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 4250 3050 50  0001 C CNN
 F 3 "~" H 4250 3050 50  0001 C CNN
 	1    4250 3050
